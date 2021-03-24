@@ -192,8 +192,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-
-/* Get Startet Button */
+/* 
+Get Startet Button
 .get-started-btn {
   margin-left: 25px;
   background: #009961;
@@ -216,7 +216,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 48px 0 0;
     padding: 6px 18px;
   }
-}
+} */
 
 /* Mobile Navigation */
 .mobile-nav-toggle {
@@ -332,7 +332,8 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 80px 0;
+  padding-top: 80px;
+  padding-bottom: 40px;
   overflow: hidden;
 }
 
@@ -373,13 +374,16 @@ section {
 --------------------------------------------------------------*/
 .home{
   margin-top: 20vh;
+  margin-left: 10vw;
 }
 .section-title-home h2 {
-  font-size: 64px;
+  font-size: 48px;
   font-weight: bold;
+  font-family: 'Noto Sans', sans-serif;
   padding-bottom: 20px;
   position: relative;
   color: #fff;
+  
 }
 .section-title-home {
   margin-bottom: 15vh;
@@ -398,7 +402,7 @@ section {
 # About Us
 --------------------------------------------------------------*/
 .about h2{
-  margin-top: 10vh;
+  margin-top: 2vh;
 }
 
 .about .content h3 {
@@ -434,6 +438,7 @@ section {
   margin-bottom: 0;
   color: #009961;
   line-height: 1;
+  font-size: medium;
 }
 .subhead{
   margin-top: 0;
@@ -442,16 +447,20 @@ section {
 }
 
 .points{
-  margin-top: 15px;
+  margin-top: 10px;
+  font-size: smaller  ;
 }
 
 .tag{
-  margin-bottom: 380px;
+  margin-bottom: 180px;
 }
 
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services{
+  padding-top: 0;
+}
 .services .icon-box {
   padding: 60px 30px;
   transition: all ease-in-out 0.3s;
@@ -673,6 +682,9 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact{
+  padding-top: 0;
+}
 .contact .info {
   width: 100%;
   background: #fff;
