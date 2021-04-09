@@ -119,6 +119,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 28px;
   margin: 0;
   padding: 0;
+  margin-left: -8.5vw;
   line-height: 1;
   font-weight: 700;
   letter-spacing: 0.5px;
@@ -346,8 +347,9 @@ section {
 }
 
 .section-title h2 {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: bold;
+  margin-left: -7vw;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
@@ -368,16 +370,17 @@ section {
   margin-bottom: 0;
   color: #777777;
   font-size: 15px;
+  margin-left: -7vw;
 }
 /*--------------------------------------------------------------
 #Home
 --------------------------------------------------------------*/
 .home{
   margin-top: 20vh;
-  margin-left: 10vw;
+  margin-left: 6vw;
 }
 .section-title-home h2 {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: bold;
   font-family: 'Noto Sans', sans-serif;
   padding-bottom: 20px;
@@ -425,7 +428,7 @@ section {
   position: absolute;
   left: 0;
   top: 2px;
-  font-size: 20px;
+  font-size: 25px;
   color: #009961;
   line-height: 1;
 }
@@ -452,8 +455,10 @@ section {
 }
 
 .tag{
-  margin-bottom: 180px;
+  margin-bottom: 80px;
+  margin-left: -7vw;
 }
+
 
 /*--------------------------------------------------------------
 # Services
