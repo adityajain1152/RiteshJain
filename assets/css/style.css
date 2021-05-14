@@ -397,7 +397,7 @@ section {
   margin-left: 6vw;
 }
 .section-title-home h2 {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: bold;
   font-family: 'Noto Sans', sans-serif;
   padding-bottom: 20px;
@@ -415,14 +415,16 @@ section {
   margin-bottom: 0;
 }
 
-
+#first, #second, #third, #fourth{
+  animation: ;
+}
 
 
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
 .about h2{
-  margin-top: 2vh;
+  margin-top: 5vh;
 }
 
 .about .content h3 {
@@ -463,12 +465,13 @@ section {
 .subhead{
   margin-top: 0;
   margin-bottom: 0;
-  font-size: small;
+  font-size: smaller;
 }
 
 .points{
   margin-top: 10px;
   font-size: smaller  ;
+  font-weight: 550;
 }
 
 .pointss{
@@ -482,13 +485,15 @@ section {
 }
 .img{
   width: 500px;
+  margin-top: 5vh;
 }
 
 .logos{
   align-content: center;
-  width: 150px;
-  height: 150px ;
-  left: 200px;
+  width: 120px;
+  height: 120px ;
+  margin-left: 15vw;
+  margin-top: 30px;
 }
 .skills{
   margin-bottom: 20px; 
@@ -513,6 +518,7 @@ section {
   }
   .img{
     width: 400px;
+    
   }
 }
 @media (max-width:600px) {
