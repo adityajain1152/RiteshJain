@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6 {
 
   #me{
     width: 100%;
-    
+
   }
 }
 
@@ -382,6 +382,13 @@ section {
   font-size: 15px;
   margin-left: -7vw;
 }
+
+@media (max-width:1320px) {
+  .section-title p {
+    margin-left: 0;
+  }
+  }
+
 /*--------------------------------------------------------------
 #Home
 --------------------------------------------------------------*/
@@ -470,14 +477,33 @@ section {
 }
 
 .tag{
-  margin-bottom: 80px;
+  margin-bottom: 0;
   margin-left: -7vw;
 }
 .img{
   width: 500px;
 }
 
-
+.logos{
+  align-content: center;
+  width: 150px;
+  height: 150px ;
+  left: 200px;
+}
+.skills{
+  margin-bottom: 20px; 
+  margin-top: 30px; 
+  font-size: 28px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.skill{
+  font-size: 16px;
+}
+.skillss{
+  font-size: 16px;
+}
 @media (max-width:1320px) {
   .tag{
     margin-left: 0;
@@ -489,7 +515,12 @@ section {
     width: 400px;
   }
 }
+@media (max-width:600px) {
+  .skills, .skill{
+    margin-left: 0;
+  }
 
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
