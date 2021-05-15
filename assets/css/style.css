@@ -424,7 +424,7 @@ section {
 # About Us
 --------------------------------------------------------------*/
 .about h2{
-  margin-top: 5vh;
+  margin-top: 35px;
 }
 
 .about .content h3 {
@@ -494,6 +494,13 @@ section {
   height: 120px ;
   margin-left: 15vw;
   margin-top: 30px;
+}
+
+@media (max-width:850px) {
+  .logos{
+    width:0;
+    height: 0;
+  }
 }
 .skills{
   margin-bottom: 20px; 
@@ -756,6 +763,7 @@ section {
 --------------------------------------------------------------*/
 .contact{
   padding-top: 0;
+  margin-top: 100px;
 }
 .contact .info {
   width: 100%;
